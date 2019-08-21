@@ -1,0 +1,70 @@
+    1  sudo apt install git
+    2  emacs
+    3  ls -a
+    4  rm '*scarath*'
+    5  rm ./'./*scratch*' 
+    6  ls -a
+    7  emacs
+    8  git clone https://github.com/maslennikov/emacs-config.git ~/.emacs.config
+    9  ls -a
+   10  emacs .emacs
+   11  emacs
+   12  ls -a
+   13  .emacs
+   14  emacs .emacs
+   15  ;; in case you use windows, teach it the utf8
+   16  (prefer-coding-system 'utf-8)
+   17  echo fuck
+   18  python
+   19  cd ~
+   20  python
+   21  Python
+   22  sudo apt-get install python
+   23  python
+   24  ls -a
+   25  .emacs.config/
+   26  clear
+   27  cd .emacs
+   28  ls -a
+   29  cd .emacs/
+   30  ls -a
+   31  ls -ad
+   32  ls -ar
+   33  ls -ai
+   34  clear
+   35  rm .emacs.d/ecfg/loaddefs.el 
+   36  emacs
+   37  env
+   38  sudo emacs
+   39  cd liveoverflow_youtube/0x05_simple_crackme_intro_assembler/
+   40  ls
+   41  r2 -d license_1
+   42  pymol
+   43  tcpdump
+   44  sudo tcpdump
+   45  env
+   46  cd ~
+   47  mkdir week1
+   48  cd week1/
+   49  ls /usr/bin
+   50  touch ex1.txt
+   51  ls
+   52  ls /usr/bin | grep gcc | cat ./ex1.txt 
+   53  emacs ex1.txt 
+   54  man cat
+   55  ls /usr/bin | grep gcc
+   56  emacs ex1.txt 
+   57  gedit
+   58  ls /usr/bin | grep gcc > test.txt
+   59  ls
+   60  emacs test.txt 
+   61  rm test.txt 
+   62  jobs
+   63  emacs ex1.txt &
+   64  jobs
+   65  %1
+   66  ls usr/bin | grep gcc | sort -r > ex1.txt 
+   67  ls /usr/bin | grep gcc | sort -r > ex1.txt 
+   68  emacs ex1.txt &
+   69  cat ex1.txt 
+   70  history > ex2.txt

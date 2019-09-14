@@ -8,7 +8,7 @@ int main(){
         char* input = calloc(sizeof(char), 128);
 
         fgets(input, 128, stdin);
-        if(strcmp(input, "q") == 0)
+        if(strcmp(input, "q\n") == 0)
             break;
         system(input);
     }

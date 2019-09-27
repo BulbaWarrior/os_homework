@@ -24,11 +24,12 @@ int main(){
             printf("parent resumes\n");
         }
         else if(pid2 == 0){
-            fprintf(stdin, "child 2 started\n");
+            printf("child 2 started\n");
             close(p[1]);
             close(p[0]);
             while(1){
-                fprintf(stdin, "child 2 awake\n");
+                printf("child 2 awake\n");
+                fflush(stdout);
                 sleep(1);
             }
         }

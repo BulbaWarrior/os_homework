@@ -1,0 +1,8 @@
+>>> addrn = 2**16                   // the number of possible addresses for 16-bit machines
+>>> word = 1                        // assume that machine works with 8 bit words -> each address points to 1 byte of data
+>>> page_size = 8*1024              // size of each page in bytes
+>>> pages = (addrn*word)/page_size  // number of pages == number of entries in a single-level linear page
+>>> pages
+8
+
+Answer: 8 pages.

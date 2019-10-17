@@ -1,0 +1,5 @@
+Aging algorythm relies on the principal of locality in time and has a limited time counter, so it is more efficient when there are many references to the same pages in a small period of time and is not so efficient when same pages are refernced over long periods.
+A sequence with a low hit/miss ratio is just a sequence, where each page is only reference once (for any algorythm)
+Let n be the number of reference frames, then a sequence:
+1 2 3 .. n 1 2 3 .. n 1 2 ... would have a very high hit/miss ratio
+(miss = n, hit = <number of references> - n)

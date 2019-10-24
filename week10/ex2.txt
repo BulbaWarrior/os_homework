@@ -1,0 +1,4 @@
+  318  touch ../week1/file.txt
+  319  link ../week1/file.txt _ex2.txt
+  329  sudo find / -inum 133688
+  330  sudo find / -inum 133688 -exec rm {} \;
